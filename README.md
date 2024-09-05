@@ -7,7 +7,7 @@ A list of NLP(Natural Language Processing) tutorials built on Pytorch
 
 코드의 기반이 되는 이론적인 설명은 800페이지 분량의 e-Book을 통해 작성 및 공개하였습니다.
 
-e-Book : [https://wikidocs.net/book/2155](https://wikidocs.net/book/2788)
+e-Book : [https://wikidocs.net/book/2788](https://wikidocs.net/book/2788)
 
 ## Colab 실습 방법
 

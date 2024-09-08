@@ -5,7 +5,7 @@ A list of NLP(Natural Language Processing) tutorials built on Pytorch
 위키독스 **Pytorch로 시작하는 딥 러닝 입문** 의 자연어 처리 튜토리얼 저장소입니다.  
 기본적으로 딥 러닝 프레임워크 PyTorch을 사용하고 있습니다.  
 
-코드의 기반이 되는 이론적인 설명은 800페이지 분량의 e-Book을 통해 작성 및 공개하였습니다.
+코드의 기반이 되는 이론적인 설명은 900페이지 분량의 e-Book을 통해 작성 및 공개하였습니다.
 
 e-Book : [https://wikidocs.net/book/2788](https://wikidocs.net/book/2788)
 

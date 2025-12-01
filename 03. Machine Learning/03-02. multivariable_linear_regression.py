@@ -55,7 +55,7 @@ for epoch in range(nb_epochs + 1):
 
 x_train  =  torch.FloatTensor([[73,  80,  75],
                                [93,  88,  93],
-                               [89,  91,  80],
+                               [89,  91,  90],
                                [96,  98,  100],
                                [73,  66,  70]])
 y_train  =  torch.FloatTensor([[152],  [185],  [180],  [196],  [142]])
@@ -71,7 +71,7 @@ hypothesis = x_train.matmul(W) + b
 
 x_train  =  torch.FloatTensor([[73,  80,  75],
                                [93,  88,  93],
-                               [89,  91,  80],
+                               [89,  91,  90],
                                [96,  98,  100],
                                [73,  66,  70]])
 y_train  =  torch.FloatTensor([[152],  [185],  [180],  [196],  [142]])
@@ -97,8 +97,8 @@ for epoch in range(nb_epochs + 1):
     cost.backward()
     optimizer.step()
 
-    print('Epoch {:4d}/{} hypothesis: {} Cost: {:.6f}'.format(
-        epoch, nb_epochs, hypothesis.squeeze().detach(), cost.item()
+    print('Epoch {:4d}/{} Weights: {} Bias: {} Cost: {:.6f}'.format(
+        epoch, nb_epochs, W.squeeze().detach(), b.item(), cost.item()
     ))
 
 # 임의의 입력 값에 대한 예측
